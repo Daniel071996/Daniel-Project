@@ -1,0 +1,107 @@
+body
+{
+margin: 0;
+padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+.contenedor {
+display: flex;
+gap: 20px;
+
+}
+
+.Country {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 20%;
+    padding: 10px;
+}
+
+.select {
+    padding: 8px;
+    border-radius: 6px;
+    width: 270px;
+
+}
+.Position {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 10%;
+    padding: 10px;
+
+}
+
+
+
+.m-o-skills {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+display: flex;
+gap: 200px;
+padding: 10px;
+
+}
+
+.input-1-2{
+    padding: 12px;
+    border-radius: 6px;
+    width: 600px;
+}
+
+.Email {
+padding: 10px;
+font-size: 15px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.input-3 {
+padding: 10px;
+border-radius: 8px;
+width: 600px;
+
+}
+
+.Submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    background-color:rgb(109, 82, 243);
+    height: 8vh;
+    width: 15vw;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+
+}
+
+table {
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th, td {
+    padding: 20px;
+}
+thead {
+    background-color: white;
+    border-bottom: solid 3px black;
+}
+tr:nth-child(even)
+{
+    background-color: #ddd;
+}
